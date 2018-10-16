@@ -1,5 +1,5 @@
 <template>
-	<div id="vbody">
+	<div id="vFoot">
 		<nav class="mui-bar mui-bar-tab">
 			<a class="mui-tab-item mui-active">
 				<span class="mui-icon mui-icon-home"></span>
@@ -24,5 +24,5 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 </style>
