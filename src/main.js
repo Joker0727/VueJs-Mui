@@ -11,5 +11,11 @@ new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  mounted:function(){///////////很重要
+	  ///mounted用来解决路由跳转冲突的问题
+            mui("body").on("tap","a",function(){
+				window.location.href = this.href;
+			});
+        }
 })

@@ -21,7 +21,8 @@
 	</div>
 </template>
 
-<script>
+<script scoped>
+	mui.init()
 </script>
 
 <style scoped>

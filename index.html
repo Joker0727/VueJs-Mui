@@ -2,17 +2,49 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<title>VueJS+Mui</title>
 		<link rel="stylesheet" type="text/css" href="static/mui/css/mui.min.css" />
 	</head>
 	<body>
 		<div id="app"></div>
+
+		<div id="more" class="mui-popover mui-popover-action mui-popover-bottom">
+			<ul class="mui-table-view">
+				<li id="btnLogin" class="mui-table-view-cell">
+					<a href="javascript:void(0)">登 陆</a>
+				</li>
+				<li id="btnRegister" class="mui-table-view-cell">
+					<a href="javascript:void(0)">注 册</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li id="btnCancel" class="mui-table-view-cell">
+					<a href="javascript:void(0)"><b>取 消</b></a>
+				</li>
+			</ul>
+		</div>
+
 		<!-- built files will be auto injected -->
 		<script src="static/mui/js/mui.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" charset="utf-8">
 			mui.init({});
-			mui.plusReady(function() {});			
+			mui.ready(function() {
+
+			});
+			mui.plusReady(function() {});
+			mui('#more').on('tap', '#btnLogin', function(e) {
+				alert("登陆按钮");
+			});
+			mui('#more').on('tap', '#btnRegister', function(e) {
+				alert("注册按钮");
+			});
+			mui('#more').on('tap', '#btnCancel', function(e) {
+				mui('#more').popover('toggle');
+				alert("取消按钮");
+			});
 		</script>
 	</body>
 </html>

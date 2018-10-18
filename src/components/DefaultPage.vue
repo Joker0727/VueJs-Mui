@@ -1,140 +1,66 @@
 <template>
 	<div id="defaultPage">
-		
-		<div id="imgSlider" class="mui-slider">
-			<div class="mui-slider-group mui-slider-loop">
-				<!--支持循环，需要重复图片节点-->
-				<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="static/img/4.jpg" /></a></div>
-				<div class="mui-slider-item"><a href="#"><img src="static/img/1.jpg" /></a></div>
-				<div class="mui-slider-item"><a href="#"><img src="static/img/2.jpg" /></a></div>
-				<div class="mui-slider-item"><a href="#"><img src="static/img/3.jpg" /></a></div>
-				<div class="mui-slider-item"><a href="#"><img src="static/img/4.jpg" /></a></div>
-				<!--支持循环，需要重复图片节点-->
-				<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="static/img/1.jpg" /></a></div>
+		<div class="mui-card" v-for="card in cardArr">
+			<div class="mui-card-header mui-card-media" style="height:40vw;" :style="{backgroundImage: 'url(' + card.imgUrl+ ')'}">
+				
+			</div>
+			<div class="mui-card-footer">
+				<p>{{card.describe}}</p>
 			</div>
 		</div>
-		
-		<!--这里放置真实显示的DOM内容-->
-		<ul class="mui-table-view">
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="static/img/3.jpg">
-					<div class="mui-media-body">
-						幸福
-						<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						木屋
-						<p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						CBD
-						<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						幸福
-						<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						木屋
-						<p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						CBD
-						<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						幸福
-						<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						木屋
-						<p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						CBD
-						<p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						幸福
-						<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						幸福
-						<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
-					</div>
-				</a>
-			</li>
-			<li class="mui-table-view-cell mui-media">
-				<a href="javascript:;">
-					<img class="mui-media-object mui-pull-left" src="../assets/logo.png">
-					<div class="mui-media-body">
-						幸福
-						<p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
-					</div>
-				</a>
-			</li>
-		</ul>
 	</div>
 </template>
 
-<script>
-	
+<script scoped>
+	export default {
+		data() {
+			return {
+				cardArr: [{
+						"imgUrl": "static/img/1.jpg",
+						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
+					},
+					{
+						"imgUrl": "static/img/2.jpg",
+						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
+					},
+					{
+						"imgUrl": "static/img/3.jpg",
+						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
+					},
+					{
+						"imgUrl": "static/img/4.jpg",
+						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
+					},
+					{
+						"imgUrl": "static/img/2.jpg",
+						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
+					},
+					{
+						"imgUrl": "static/img/1.jpg",
+						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
+					}
+				],
+			}
+		}
+	}
+	mui.init();
+	mui.ready(function() {
+		mui("#defaultPage").on("tap", ".mui-card", toPicList);
+	})
+
+	function toPicList() {
+		mui.openWindow({
+			url: '/PicList',
+			extras: {
+				id: '100'
+			}
+		});
+	}
 </script>
 
-<style>
+<style scoped>
 	#defaultPage {
 		width: 100%;
-		margin-bottom: 90px;
+		margin-bottom: 45px;
 	}
 </style>

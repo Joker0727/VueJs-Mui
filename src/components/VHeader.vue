@@ -1,10 +1,10 @@
 <template>
 	<div id="vheader">
-		<header class="mui-bar mui-bar-nav">
-			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-			<!-- <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a> -->
+		<header class="mui-bar mui-bar-nav mui-bar-transparent">
+			<a class="mui-icon mui-icon-left-nav mui-pull-left" href="javascript:void(0)" @tap="back"></a>
+			<a id="moreBtn" class="mui-icon mui-icon-more mui-pull-right" href="javascript:void(0)" @tap="toggleMore"></a>
 			<h1 class="mui-title">首页</h1>
-		</header>
+		</header>		
 	</div>
 </template>
 
@@ -15,10 +15,20 @@
 				msg: 'Welcome to Your Vue.js App'
 			}
 		},
-		methods:{
-			
+		methods: {
+			back: function() {
+				if (this.$route.path != "/")
+					this.$router.go(-1);
+			},
+			toggleMore: function() {
+				mui('#more').popover('toggle');
+			}
 		}
 	}
+	mui.init();
+	mui.ready(function() {
+
+	});
 </script>
 
 <style scoped>
