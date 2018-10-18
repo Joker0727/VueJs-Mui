@@ -20,7 +20,7 @@ export default new Router({
 	},
 	{
 		path: '/PicDetailsPage',
-		name: '/PicDetailsPage',
+		name: 'PicDetailsPage',
 		component: PicDetailsPage
 	}
 	]

@@ -22,6 +22,7 @@
 			},
 			toggleMore: function() {
 				mui('#more').popover('toggle');
+				
 			}
 		}
 	}
