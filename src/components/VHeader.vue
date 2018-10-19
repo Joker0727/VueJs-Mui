@@ -21,8 +21,7 @@
 					this.$router.go(-1);
 			},
 			toggleMore: function() {
-				mui('#more').popover('toggle');
-				
+				mui('#more').popover('toggle');				
 			}
 		}
 	}

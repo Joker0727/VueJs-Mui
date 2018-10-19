@@ -1,6 +1,7 @@
 <template>
 	<div id="defaultPage">
 		<div class="mui-card" v-for="card in cardArr">
+			
 			<div class="mui-card-header mui-card-media" style="height:40vw;" :style="{backgroundImage: 'url(' + card.imgUrl+ ')'}">
 				
 			</div>

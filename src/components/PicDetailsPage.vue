@@ -1,17 +1,22 @@
 <template>
-	<div class="mui-content-padded">
-		<img src="../../static/img/1.jpg" data-preview-src="" data-preview-group="3" />
-	</div>	
+	<div>
+		<div class="mui-card" v-for="i in 10">
+			<div class="mui-card-header mui-card-media" 
+			style="height:100vw;backgroundImage:url(static/img/1.jpg)">				
+			</div>
+		</div>
+	</div>
+	
 </template>
 
+
+
 <script>
-	export default{
-		
+	export default {
+
 	}
 	mui.init();
-	mui.ready(function() {
-		
-	})
+	mui.ready(function() {});
 </script>
 
 <style scoped>

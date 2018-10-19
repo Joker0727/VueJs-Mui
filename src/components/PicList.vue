@@ -3,7 +3,7 @@
 		<!--这里放置真实显示的DOM内容-->
 		<ul class="mui-table-view">
 			<li class="mui-table-view-cell mui-media" v-for="pic in picArr">
-				<a href="javascript:void(0)">
+				<a href="/PicDetailsPage">
 					<img class="mui-media-object mui-pull-left" :src="pic.imgUrl">
 					<div class="mui-media-body">
 						{{pic.keyWord}}
@@ -85,18 +85,8 @@
 	}
 	mui.init();
 	mui.ready(function() {
-		mui("#pic").on("tap", "li", toPicDetailsPage);
-	})
 
-	function toPicDetailsPage() {
-		console.log("li");
-		mui.openWindow({
-			url: '/PicDetailsPage',                
-			extras: {
-				id: '100'
-			}
-		});
-	}
+	})
 </script>
 
 <style scoped>
