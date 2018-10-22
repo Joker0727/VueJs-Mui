@@ -6,6 +6,6 @@ app.use(require('connect-history-api-fallback')())//解决h5路由无法识别�
 
 app.use(express.static(path.join(__dirname, 'dist')))
 
-app.listen(3000, () => {
-	console.log('app listening on port 3000.')
+app.listen(80, () => {
+	console.log('app listening on port 80.')
 })

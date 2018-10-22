@@ -20,62 +20,62 @@
 		data() {
 			return {
 				picArr: [{
-						"imgUrl": "static/img/1.jpg",
+						"imgUrl": "http://118.178.243.105/img/2,01fd7d2e8c946b.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/2.jpg",
+						"imgUrl": "http://118.178.243.105/img/3,01fe95f93c284f.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/3.jpg",
+						"imgUrl": "http://118.178.243.105/img/7,01fd07f9803742.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/4.jpg",
+						"imgUrl": "http://118.178.243.105/img/5,01fcdf9bc495e6.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/2.jpg",
+						"imgUrl": "http://118.178.243.105/img/5,01f67c0a9ced13.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/1.jpg",
+						"imgUrl": "http://118.178.243.105/img/3,01b45b4ef95089.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/4.jpg",
+						"imgUrl": "http://118.178.243.105/img/5,01fcdf9bc495e6.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/1.jpg",
+						"imgUrl": "http://118.178.243.105/img/6,01fce0d6b31bc7.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/3.jpg",
+						"imgUrl": "http://118.178.243.105/img/1,015d0b4d02d778.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/4.jpg",
+						"imgUrl": "http://118.178.243.105/img/3,01b45b4ef95089.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/1.jpg",
+						"imgUrl": "http://118.178.243.105/img/7,01e92a2d56f427.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/3.jpg",
+						"imgUrl": "http://118.178.243.105/img/5,9a2893d77567.jpg",
 						"keyWord": "你好",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					}

@@ -17,27 +17,27 @@
 		data() {
 			return {
 				cardArr: [{
-						"imgUrl": "static/img/1.jpg",
+						"imgUrl": "http://118.178.243.105/img/2,01fd7d2e8c946b.jpg",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/2.jpg",
+						"imgUrl": "http://118.178.243.105/img/6,01fce0d6b31bc7.jpg",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/3.jpg",
+						"imgUrl": "http://118.178.243.105/img/6,01fd0a25ddf67f.jpg",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/4.jpg",
+						"imgUrl": "http://118.178.243.105/img/5,01fcdf9bc495e6.jpg",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/2.jpg",
+						"imgUrl": "http://118.178.243.105/img/3,01fe95f93c284f.jpg",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					},
 					{
-						"imgUrl": "static/img/1.jpg",
+						"imgUrl": "http://118.178.243.105/img/2,01f73a8c8cf9bd.jpg",
 						"describe": "这里显示文章摘要，让读者对文章内容有个粗略的概念..."
 					}
 				],

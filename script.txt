@@ -5,4 +5,12 @@
 	},
 
 		///注释掉的是原来的
+		
+		
+		"scripts": {//Express 
+			"dev": "node build/dev-server.js",
+			"build": "node build/build.js",
+			"server": "nodemon app.js",
+			"start": "node app.js"
+		},
 		    
